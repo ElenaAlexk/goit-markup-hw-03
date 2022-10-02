@@ -27,7 +27,6 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 ul {
   padding: 0px;
@@ -145,7 +144,9 @@ ul {
 }
 
 /* Оформление section */
-
+.section {
+  padding-bottom: 94px;
+}
 .section-subtitle {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -157,7 +158,7 @@ ul {
 }
 .text {
   margin-top: 0px;
-  margin-bottom: 94px;
+
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
