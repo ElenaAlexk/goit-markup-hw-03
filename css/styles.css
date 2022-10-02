@@ -147,7 +147,15 @@ ul {
 
 /* Оформление section */
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
+}
+.section.no-pudding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.section-title {
+  text-align: center;
 }
 .section-subtitle {
   margin-top: 0px;
