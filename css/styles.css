@@ -22,12 +22,16 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
+  margin-left: auto;
+  margin-right: auto;
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
 }
 ul {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 .visually-hidden {
@@ -88,8 +92,11 @@ ul {
 /* Оформление hero */
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
   color: var(--primary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -100,7 +107,7 @@ ul {
 }
 .button {
   display: inline-block;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
@@ -113,7 +120,6 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 .button:hover,
@@ -141,6 +147,8 @@ ul {
 /* Оформление section */
 
 .section-subtitle {
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -148,6 +156,8 @@ ul {
   text-transform: uppercase;
 }
 .text {
+  margin-top: 0px;
+  margin-bottom: 94px;
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
