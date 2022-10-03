@@ -156,6 +156,8 @@ ul {
 }
 .section-title {
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 .section-subtitle {
   margin-top: 0px;
@@ -173,16 +175,21 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .gallery {
+  padding-top: 94px;
+  padding-bottom: 94 px;
   background-color: #f5f4fa;
 }
 .gallery-title {
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
+
 .gallery-subtitle {
   color: var(--title-text-color);
   font-weight: 500;
