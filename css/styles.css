@@ -241,7 +241,13 @@ ul {
   line-height: 1.19;
 }
 .item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
   color: #eeeeee;
+}
+.item .flex-elements {
+  flex-basis: calc((100% - 60px) / 3);
 }
 .item-title {
   color: var(--title-text-color);
