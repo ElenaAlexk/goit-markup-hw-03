@@ -16,7 +16,6 @@
 }
 
 body {
-  width: 1600px;
   background-color: var(--primary-text-color);
   color: rgba(33, 33, 33, 1);
 
@@ -30,6 +29,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
+}
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 ul {
@@ -224,6 +227,8 @@ ul {
 }
 /* Футер */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 .footer-item {
