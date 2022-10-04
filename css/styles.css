@@ -24,10 +24,12 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 ul {
@@ -150,7 +152,6 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 2px solid tomato;
 }
 .section-work {
   padding-top: 0px;
