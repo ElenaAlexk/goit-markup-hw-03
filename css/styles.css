@@ -223,8 +223,8 @@ img {
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-.item .gallery-element:nth-last-child {
-  margin-left: 30px;
+.item .gallery-element:not(:last-child) {
+  margin-right: 30px;
   outline: 2px solid tomato;
 }
 
