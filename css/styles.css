@@ -39,8 +39,8 @@ body {
   margin-right: 30px;
 }
 .page-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 ul {
@@ -132,7 +132,8 @@ ul {
 }
 .hero-title {
   margin-top: 0px;
-  margin-bottom: 30px;
+  padding-top: 200px;
+  paddig-bottom: 30px;
   color: var(--primary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -143,6 +144,7 @@ ul {
 }
 .button {
   display: inline-block;
+  margin-bottom: 200px;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 32px;
@@ -164,6 +166,11 @@ ul {
   color: var(--primary-text-color);
 }
 
+.btn-filter {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 34px;
+}
 .button-filter {
   background-color: #f5f4fa;
   color: var(--title-text-color);
@@ -200,11 +207,9 @@ img {
 .section-title {
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 50px;
 }
 .section-subtitle {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -212,8 +217,7 @@ img {
   text-transform: uppercase;
 }
 .text {
-  margin-top: 0px;
-
+  margin-top: 10px;
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
@@ -223,8 +227,8 @@ img {
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-.item .gallery-element:not(:last-child) {
-  margin-right: 30px;
+
+.item .gallery-element {
   outline: 2px solid tomato;
 }
 
@@ -239,10 +243,12 @@ img {
   text-align: center;
 }
 .gallery-content {
-  padding: 30px 70px;
+  text-align: center;
 }
 
 .gallery-subtitle {
+  margin-top: 30px;
+  margin-bottom: 0px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -250,6 +256,7 @@ img {
 }
 .gallery-text {
   margin-top: 10px;
+  margin-bottom: 30px;
   color: #757575;
   font-size: 16px;
   line-height: 1.19;
