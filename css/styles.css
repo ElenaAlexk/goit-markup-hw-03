@@ -185,7 +185,11 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .section-list {
   display: flex;
 }
@@ -242,13 +246,17 @@ ul {
   line-height: 1.19;
 }
 .item {
+  outline: 2px solid tomato;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   color: #eeeeee;
 }
+.card-content {
+  padding: 20px 24px;
+}
 .item .flex-elements {
-  background-color: tomato;
+  outline: 2px solid tomato;
   flex-basis: calc((100% - 60px) / 3);
 }
 .item-title {
@@ -259,6 +267,7 @@ ul {
   letter-spacing: 0.06em;
 }
 .item-text {
+  margin-top: 4px;
   color: #757575;
   font-size: 16px;
   line-height: 1.87;
