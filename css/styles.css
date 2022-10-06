@@ -18,17 +18,14 @@
 body {
   background-color: var(--primary-text-color);
   color: rgba(33, 33, 33, 1);
-
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 .container {
   margin: 0 auto;
-
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
 }
 .flex-container {
   display: flex;
@@ -41,6 +38,7 @@ body {
 .page-header {
   padding-top: 0px;
   padding-bottom: 0px;
+  border-bottom: 1px solid #ececec;
 }
 p,
 h1,
@@ -244,16 +242,10 @@ img {
   font-size: 14px;
   line-height: 1.71;
 }
-.item-section {
-  outline: 2px solid tomato;
-}
+
 .gallery {
   padding-bottom: 94px;
   background-color: #f5f4fa;
-}
-
-.item .gallery-element {
-  outline: 2px solid tomato;
 }
 
 .gallery-title {
@@ -287,8 +279,6 @@ img {
 }
 .item {
   display: flex;
-  outline: 2px solid tomato;
-
   flex-wrap: wrap;
   gap: 30px;
   color: #eeeeee;
@@ -297,7 +287,6 @@ img {
   padding: 20px 24px;
 }
 .item .flex-elements {
-  outline: 2px solid tomato;
   flex-basis: calc((100% - 60px) / 3);
 }
 .item-title {
@@ -315,6 +304,9 @@ img {
 }
 .item .link {
   text-decoration: none;
+}
+.flex-elements {
+  border-bottom: 1px solid #eeeeee;
 }
 /* Футер */
 .footer {
