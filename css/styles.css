@@ -23,8 +23,8 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -42,9 +42,18 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
 
 ul {
-  padding: 0px;
+  padding-left: 0px;
   margin: 0px;
   list-style: none;
 }
@@ -131,9 +140,11 @@ ul {
   text-align: center;
 }
 .hero-title {
+  margin: 0 auto;
   margin-top: 0px;
   padding-top: 200px;
-  paddig-bottom: 30px;
+  margin-bottom: 30px;
+  width: 696px;
   color: var(--primary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -189,8 +200,8 @@ ul {
 
 /* Оформление section */
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 img {
   display: block;
@@ -199,12 +210,14 @@ img {
 }
 .section-list {
   display: flex;
+  gap: 30px;
 }
 .section-work {
   padding-top: 0px;
   padding-bottom: 94px;
 }
 .section-title {
+  padding-bottom: 50px;
   text-align: center;
   margin-top: 0px;
 }
@@ -217,12 +230,14 @@ img {
   text-transform: uppercase;
 }
 .text {
-  margin-top: 10px;
+  margin: 0px;
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
 }
-
+.item-section {
+  outline: 2px solid tomato;
+}
 .gallery {
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -235,7 +250,7 @@ img {
 .gallery-title {
   padding-top: 94px;
   margin-top: 0px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -262,8 +277,9 @@ img {
   line-height: 1.19;
 }
 .item {
-  outline: 2px solid tomato;
   display: flex;
+  outline: 2px solid tomato;
+
   flex-wrap: wrap;
   gap: 30px;
   color: #eeeeee;
@@ -293,22 +309,23 @@ img {
 }
 /* Футер */
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-color: #2f303a;
 }
+
 .footer-item {
-  padding-top: 20px;
+  padding-bottom: 60px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .footer-link {
+  margin-bottom: 9px;
   color: var(--primary-text-color);
   text-decoration: none;
 }
 .footer-list {
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -317,5 +334,8 @@ img {
   color: var(--accent-color);
 }
 .logo-footer {
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
   color: var(--primary-text-color);
 }
