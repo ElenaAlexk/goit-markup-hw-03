@@ -290,6 +290,7 @@ img {
 }
 .card-content {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .item .flex-elements {
   flex-basis: calc((100% - 60px) / 3);
@@ -310,9 +311,7 @@ img {
 .item .link {
   text-decoration: none;
 }
-.flex-elements {
-  border-bottom: 1px solid #eeeeee;
-}
+
 /* Футер */
 .footer {
   padding-top: 60px;
