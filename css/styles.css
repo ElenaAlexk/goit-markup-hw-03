@@ -50,7 +50,8 @@ h6 {
   margin: 0px;
 }
 
-ul {
+ul,
+ol {
   padding-left: 0px;
   margin: 0px;
   list-style: none;
@@ -134,13 +135,14 @@ ul {
 }
 /* Оформление hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
 }
 .hero-title {
   margin: 0 auto;
   margin-top: 0px;
-  padding-top: 200px;
   margin-bottom: 30px;
   width: 696px;
   color: var(--primary-text-color);
@@ -153,7 +155,6 @@ ul {
 }
 .button {
   display: inline-block;
-  margin-bottom: 200px;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 32px;
@@ -224,12 +225,17 @@ img {
   padding-bottom: 94px;
 }
 .section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
   margin-top: 0px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .section-subtitle {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -245,13 +251,12 @@ img {
 
 .gallery {
   padding-bottom: 94px;
+  padding-top: 94px;
   background-color: #f5f4fa;
 }
 
 .gallery-title {
-  padding-top: 94px;
-  margin-top: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -310,11 +315,12 @@ img {
 }
 /* Футер */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
 .footer-item {
-  padding-bottom: 60px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -336,7 +342,6 @@ img {
 }
 .logo-footer {
   display: inline-block;
-  padding-top: 60px;
   margin-bottom: 20px;
   color: var(--primary-text-color);
 }
